@@ -5,9 +5,11 @@ function twoSum(nums, target){
         const complement = target - nums[i];
 
         if (map.hasOwnProperty(complement)) {
-            return [map[complement], i]
+            return [map[complement], i];
 
         }
+
+        map[nums[i]] = i;
     }
 
 }
