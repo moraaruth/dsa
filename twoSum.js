@@ -1,3 +1,4 @@
-function twoSum(){
-    
+function twoSum(nums, target){
+    const map = {}
+
 }
